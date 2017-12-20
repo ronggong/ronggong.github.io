@@ -1,0 +1,670 @@
+"bufferSize": !!int |-
+  2048
+"pages":
+- "content": |-
+    The next few trails are training trails. The stimulus contain a reference and an anchor shown by their names.
+  "id": |-
+    welcome
+  "name": |-
+    Welcome
+  "type": |-
+    generic
+- "content": |-
+    please play with the singing samples
+  "createAnchor35": !!bool |-
+    false
+  "createAnchor70": !!bool |-
+    false
+  "enableLooping": !!bool |-
+    false
+  "id": |-
+    training_page_0
+  "name": |-
+    training_page_0
+  "randomize": !!bool |-
+    false
+  "reference": |-
+    configs/resources/audio/20171211SongRuoXuan/daxp_Qing_zao_qi_lai-Mai_shui-dxjky/3_0teacher.wav
+  "showConditionNames": !!bool |-
+    true
+  "showWaveform": !!bool |-
+    true
+  "stimuli": &id003
+    "C1": |-
+      configs/resources/audio/20171211SongRuoXuan/daxp_Qing_zao_qi_lai-Mai_shui-dxjky/3_student01.wav
+    "C2": |-
+      configs/resources/audio/20171211SongRuoXuan/daxp_Qing_zao_qi_lai-Mai_shui-dxjky/3_student02_first_half.wav
+    "C3": |-
+      configs/resources/audio/20171211SongRuoXuan/daxp_Qing_zao_qi_lai-Mai_shui-dxjky/3_student03.wav
+    "C4": |-
+      configs/resources/audio/20171211SongRuoXuan/daxp_Qing_zao_qi_lai-Mai_shui-dxjky/3_student04.wav
+    "C4_anchor": |-
+      configs/resources/audio/20171211SongRuoXuan/daxp_Qing_zao_qi_lai-Mai_shui-dxjky/3_student04.wav
+    "C5": |-
+      configs/resources/audio/20171211SongRuoXuan/daxp_Qing_zao_qi_lai-Mai_shui-dxjky/3_student05.wav
+    "C6": |-
+      configs/resources/audio/20171211SongRuoXuan/daxp_Qing_zao_qi_lai-Mai_shui-dxjky/3_student06.wav
+  "type": |-
+    mushra
+- "content": |-
+    please play with the singing samples
+  "createAnchor35": !!bool |-
+    false
+  "createAnchor70": !!bool |-
+    false
+  "enableLooping": !!bool |-
+    false
+  "id": |-
+    training_page_1
+  "name": |-
+    training_page_1
+  "randomize": !!bool |-
+    false
+  "reference": |-
+    configs/resources/audio/20171211SongRuoXuan/daxp_Qing_zao_qi_lai-Mai_shui-dxjky/1_0teacher.wav
+  "showConditionNames": !!bool |-
+    true
+  "showWaveform": !!bool |-
+    true
+  "stimuli": &id002
+    "C1": |-
+      configs/resources/audio/20171211SongRuoXuan/daxp_Qing_zao_qi_lai-Mai_shui-dxjky/1_student01.wav
+    "C2": |-
+      configs/resources/audio/20171211SongRuoXuan/daxp_Qing_zao_qi_lai-Mai_shui-dxjky/1_student02_first_half.wav
+    "C2_anchor": |-
+      configs/resources/audio/20171211SongRuoXuan/daxp_Qing_zao_qi_lai-Mai_shui-dxjky/1_student02_first_half.wav
+    "C3": |-
+      configs/resources/audio/20171211SongRuoXuan/daxp_Qing_zao_qi_lai-Mai_shui-dxjky/1_student03.wav
+    "C4": |-
+      configs/resources/audio/20171211SongRuoXuan/daxp_Qing_zao_qi_lai-Mai_shui-dxjky/1_student04.wav
+    "C5": |-
+      configs/resources/audio/20171211SongRuoXuan/daxp_Qing_zao_qi_lai-Mai_shui-dxjky/1_student05.wav
+    "C6": |-
+      configs/resources/audio/20171211SongRuoXuan/daxp_Qing_zao_qi_lai-Mai_shui-dxjky/1_student06.wav
+  "type": |-
+    mushra
+- "content": |-
+    please play with the singing samples
+  "createAnchor35": !!bool |-
+    false
+  "createAnchor70": !!bool |-
+    false
+  "enableLooping": !!bool |-
+    false
+  "id": |-
+    training_page_2
+  "name": |-
+    training_page_2
+  "randomize": !!bool |-
+    false
+  "reference": |-
+    configs/resources/audio/20171211SongRuoXuan/daxp_Qing_zao_qi_lai-Mai_shui-dxjky/0_0teacher.wav
+  "showConditionNames": !!bool |-
+    true
+  "showWaveform": !!bool |-
+    true
+  "stimuli": &id001
+    "C1": |-
+      configs/resources/audio/20171211SongRuoXuan/daxp_Qing_zao_qi_lai-Mai_shui-dxjky/0_student01.wav
+    "C2": |-
+      configs/resources/audio/20171211SongRuoXuan/daxp_Qing_zao_qi_lai-Mai_shui-dxjky/0_student02_first_half.wav
+    "C3": |-
+      configs/resources/audio/20171211SongRuoXuan/daxp_Qing_zao_qi_lai-Mai_shui-dxjky/0_student03.wav
+    "C4": |-
+      configs/resources/audio/20171211SongRuoXuan/daxp_Qing_zao_qi_lai-Mai_shui-dxjky/0_student04.wav
+    "C4_anchor": |-
+      configs/resources/audio/20171211SongRuoXuan/daxp_Qing_zao_qi_lai-Mai_shui-dxjky/0_student04.wav
+    "C5": |-
+      configs/resources/audio/20171211SongRuoXuan/daxp_Qing_zao_qi_lai-Mai_shui-dxjky/0_student05.wav
+    "C6": |-
+      configs/resources/audio/20171211SongRuoXuan/daxp_Qing_zao_qi_lai-Mai_shui-dxjky/0_student06.wav
+  "type": |-
+    mushra
+- "content": |-
+    We are going to start the test. We will not show the waveform and stimulus names. We will also randomize the stimulus order.
+  "id": |-
+    Start Tesing
+  "name": |-
+    Start testing
+  "type": |-
+    generic
+- "content": |-
+    please rate each singing sample
+  "createAnchor35": !!bool |-
+    false
+  "createAnchor70": !!bool |-
+    false
+  "enableLooping": !!bool |-
+    false
+  "id": |-
+    0
+  "name": |-
+    20171211SongRuoXuan/daxp_Qing_zao_qi_lai-Mai_shui-dxjky_0
+  "randomize": !!bool |-
+    true
+  "reference": |-
+    configs/resources/audio/20171211SongRuoXuan/daxp_Qing_zao_qi_lai-Mai_shui-dxjky/0_0teacher.wav
+  "showWaveform": !!bool |-
+    false
+  "stimuli": *id001
+  "type": |-
+    mushra
+- "content": |-
+    please rate each singing sample
+  "createAnchor35": !!bool |-
+    false
+  "createAnchor70": !!bool |-
+    false
+  "enableLooping": !!bool |-
+    false
+  "id": |-
+    1
+  "name": |-
+    20171211SongRuoXuan/daxp_Qing_zao_qi_lai-Mai_shui-dxjky_1
+  "randomize": !!bool |-
+    true
+  "reference": |-
+    configs/resources/audio/20171211SongRuoXuan/daxp_Qing_zao_qi_lai-Mai_shui-dxjky/1_0teacher.wav
+  "showWaveform": !!bool |-
+    false
+  "stimuli": *id002
+  "type": |-
+    mushra
+- "content": |-
+    please rate each singing sample
+  "createAnchor35": !!bool |-
+    false
+  "createAnchor70": !!bool |-
+    false
+  "enableLooping": !!bool |-
+    false
+  "id": |-
+    2
+  "name": |-
+    20171211SongRuoXuan/daxp_Qing_zao_qi_lai-Mai_shui-dxjky_2
+  "randomize": !!bool |-
+    true
+  "reference": |-
+    configs/resources/audio/20171211SongRuoXuan/daxp_Qing_zao_qi_lai-Mai_shui-dxjky/2_0teacher.wav
+  "showWaveform": !!bool |-
+    false
+  "stimuli":
+    "C1": |-
+      configs/resources/audio/20171211SongRuoXuan/daxp_Qing_zao_qi_lai-Mai_shui-dxjky/2_student01.wav
+    "C2": |-
+      configs/resources/audio/20171211SongRuoXuan/daxp_Qing_zao_qi_lai-Mai_shui-dxjky/2_student02_first_half.wav
+    "C3": |-
+      configs/resources/audio/20171211SongRuoXuan/daxp_Qing_zao_qi_lai-Mai_shui-dxjky/2_student03.wav
+    "C4": |-
+      configs/resources/audio/20171211SongRuoXuan/daxp_Qing_zao_qi_lai-Mai_shui-dxjky/2_student04.wav
+    "C5": |-
+      configs/resources/audio/20171211SongRuoXuan/daxp_Qing_zao_qi_lai-Mai_shui-dxjky/2_student05.wav
+    "C5_anchor": |-
+      configs/resources/audio/20171211SongRuoXuan/daxp_Qing_zao_qi_lai-Mai_shui-dxjky/2_student05.wav
+    "C6": |-
+      configs/resources/audio/20171211SongRuoXuan/daxp_Qing_zao_qi_lai-Mai_shui-dxjky/2_student06.wav
+  "type": |-
+    mushra
+- "content": |-
+    please rate each singing sample
+  "createAnchor35": !!bool |-
+    false
+  "createAnchor70": !!bool |-
+    false
+  "enableLooping": !!bool |-
+    false
+  "id": |-
+    3
+  "name": |-
+    20171211SongRuoXuan/daxp_Qing_zao_qi_lai-Mai_shui-dxjky_3
+  "randomize": !!bool |-
+    true
+  "reference": |-
+    configs/resources/audio/20171211SongRuoXuan/daxp_Qing_zao_qi_lai-Mai_shui-dxjky/3_0teacher.wav
+  "showWaveform": !!bool |-
+    false
+  "stimuli": *id003
+  "type": |-
+    mushra
+- "content": |-
+    please rate each singing sample
+  "createAnchor35": !!bool |-
+    false
+  "createAnchor70": !!bool |-
+    false
+  "enableLooping": !!bool |-
+    false
+  "id": |-
+    4
+  "name": |-
+    20171211SongRuoXuan/daxp_Qing_zao_qi_lai-Mai_shui-dxjky_4
+  "randomize": !!bool |-
+    true
+  "reference": |-
+    configs/resources/audio/20171211SongRuoXuan/daxp_Qing_zao_qi_lai-Mai_shui-dxjky/4_0teacher.wav
+  "showWaveform": !!bool |-
+    false
+  "stimuli":
+    "C1": |-
+      configs/resources/audio/20171211SongRuoXuan/daxp_Qing_zao_qi_lai-Mai_shui-dxjky/4_student01.wav
+    "C1_anchor": |-
+      configs/resources/audio/20171211SongRuoXuan/daxp_Qing_zao_qi_lai-Mai_shui-dxjky/4_student01.wav
+    "C2": |-
+      configs/resources/audio/20171211SongRuoXuan/daxp_Qing_zao_qi_lai-Mai_shui-dxjky/4_student02.wav
+    "C3": |-
+      configs/resources/audio/20171211SongRuoXuan/daxp_Qing_zao_qi_lai-Mai_shui-dxjky/4_student03.wav
+    "C4": |-
+      configs/resources/audio/20171211SongRuoXuan/daxp_Qing_zao_qi_lai-Mai_shui-dxjky/4_student04.wav
+    "C5": |-
+      configs/resources/audio/20171211SongRuoXuan/daxp_Qing_zao_qi_lai-Mai_shui-dxjky/4_student05.wav
+    "C6": |-
+      configs/resources/audio/20171211SongRuoXuan/daxp_Qing_zao_qi_lai-Mai_shui-dxjky/4_student06.wav
+  "type": |-
+    mushra
+- "content": |-
+    please rate each singing sample
+  "createAnchor35": !!bool |-
+    false
+  "createAnchor70": !!bool |-
+    false
+  "enableLooping": !!bool |-
+    false
+  "id": |-
+    5
+  "name": |-
+    20171211SongRuoXuan/daxp_Qing_zao_qi_lai-Mai_shui-dxjky_5
+  "randomize": !!bool |-
+    true
+  "reference": |-
+    configs/resources/audio/20171211SongRuoXuan/daxp_Qing_zao_qi_lai-Mai_shui-dxjky/5_0teacher.wav
+  "showWaveform": !!bool |-
+    false
+  "stimuli":
+    "C1": |-
+      configs/resources/audio/20171211SongRuoXuan/daxp_Qing_zao_qi_lai-Mai_shui-dxjky/5_student01.wav
+    "C2": |-
+      configs/resources/audio/20171211SongRuoXuan/daxp_Qing_zao_qi_lai-Mai_shui-dxjky/5_student02.wav
+    "C3": |-
+      configs/resources/audio/20171211SongRuoXuan/daxp_Qing_zao_qi_lai-Mai_shui-dxjky/5_student03.wav
+    "C4": |-
+      configs/resources/audio/20171211SongRuoXuan/daxp_Qing_zao_qi_lai-Mai_shui-dxjky/5_student04.wav
+    "C5": |-
+      configs/resources/audio/20171211SongRuoXuan/daxp_Qing_zao_qi_lai-Mai_shui-dxjky/5_student05.wav
+    "C5_anchor": |-
+      configs/resources/audio/20171211SongRuoXuan/daxp_Qing_zao_qi_lai-Mai_shui-dxjky/5_student05.wav
+    "C6": |-
+      configs/resources/audio/20171211SongRuoXuan/daxp_Qing_zao_qi_lai-Mai_shui-dxjky/5_student06.wav
+  "type": |-
+    mushra
+- "content": |-
+    please rate each singing sample
+  "createAnchor35": !!bool |-
+    false
+  "createAnchor70": !!bool |-
+    false
+  "enableLooping": !!bool |-
+    false
+  "id": |-
+    6
+  "name": |-
+    20171211SongRuoXuan/daxp_Qing_zao_qi_lai-Mai_shui-dxjky_6
+  "randomize": !!bool |-
+    true
+  "reference": |-
+    configs/resources/audio/20171211SongRuoXuan/daxp_Qing_zao_qi_lai-Mai_shui-dxjky/6_0teacher.wav
+  "showWaveform": !!bool |-
+    false
+  "stimuli":
+    "C1": |-
+      configs/resources/audio/20171211SongRuoXuan/daxp_Qing_zao_qi_lai-Mai_shui-dxjky/6_student01.wav
+    "C2": |-
+      configs/resources/audio/20171211SongRuoXuan/daxp_Qing_zao_qi_lai-Mai_shui-dxjky/6_student02.wav
+    "C3": |-
+      configs/resources/audio/20171211SongRuoXuan/daxp_Qing_zao_qi_lai-Mai_shui-dxjky/6_student03.wav
+    "C4": |-
+      configs/resources/audio/20171211SongRuoXuan/daxp_Qing_zao_qi_lai-Mai_shui-dxjky/6_student04.wav
+    "C4_anchor": |-
+      configs/resources/audio/20171211SongRuoXuan/daxp_Qing_zao_qi_lai-Mai_shui-dxjky/6_student04.wav
+    "C5": |-
+      configs/resources/audio/20171211SongRuoXuan/daxp_Qing_zao_qi_lai-Mai_shui-dxjky/6_student05.wav
+    "C6": |-
+      configs/resources/audio/20171211SongRuoXuan/daxp_Qing_zao_qi_lai-Mai_shui-dxjky/6_student06.wav
+  "type": |-
+    mushra
+- "content": |-
+    please rate each singing sample
+  "createAnchor35": !!bool |-
+    false
+  "createAnchor70": !!bool |-
+    false
+  "enableLooping": !!bool |-
+    false
+  "id": |-
+    7
+  "name": |-
+    20171211SongRuoXuan/daxp_Qing_zao_qi_lai-Mai_shui-dxjky_7
+  "randomize": !!bool |-
+    true
+  "reference": |-
+    configs/resources/audio/20171211SongRuoXuan/daxp_Qing_zao_qi_lai-Mai_shui-dxjky/7_0teacher.wav
+  "showWaveform": !!bool |-
+    false
+  "stimuli":
+    "C1": |-
+      configs/resources/audio/20171211SongRuoXuan/daxp_Qing_zao_qi_lai-Mai_shui-dxjky/7_student01.wav
+    "C2": |-
+      configs/resources/audio/20171211SongRuoXuan/daxp_Qing_zao_qi_lai-Mai_shui-dxjky/7_student02.wav
+    "C3": |-
+      configs/resources/audio/20171211SongRuoXuan/daxp_Qing_zao_qi_lai-Mai_shui-dxjky/7_student03.wav
+    "C4": |-
+      configs/resources/audio/20171211SongRuoXuan/daxp_Qing_zao_qi_lai-Mai_shui-dxjky/7_student04.wav
+    "C5": |-
+      configs/resources/audio/20171211SongRuoXuan/daxp_Qing_zao_qi_lai-Mai_shui-dxjky/7_student05.wav
+    "C6": |-
+      configs/resources/audio/20171211SongRuoXuan/daxp_Qing_zao_qi_lai-Mai_shui-dxjky/7_student06.wav
+    "C6_anchor": |-
+      configs/resources/audio/20171211SongRuoXuan/daxp_Qing_zao_qi_lai-Mai_shui-dxjky/7_student06.wav
+  "type": |-
+    mushra
+- "content": |-
+    please rate each singing sample
+  "createAnchor35": !!bool |-
+    false
+  "createAnchor70": !!bool |-
+    false
+  "enableLooping": !!bool |-
+    false
+  "id": |-
+    8
+  "name": |-
+    20171211SongRuoXuan/daxp_Qing_zao_qi_lai-Mai_shui-dxjky_8
+  "randomize": !!bool |-
+    true
+  "reference": |-
+    configs/resources/audio/20171211SongRuoXuan/daxp_Qing_zao_qi_lai-Mai_shui-dxjky/8_0teacher.wav
+  "showWaveform": !!bool |-
+    false
+  "stimuli":
+    "C1": |-
+      configs/resources/audio/20171211SongRuoXuan/daxp_Qing_zao_qi_lai-Mai_shui-dxjky/8_student01.wav
+    "C2": |-
+      configs/resources/audio/20171211SongRuoXuan/daxp_Qing_zao_qi_lai-Mai_shui-dxjky/8_student02.wav
+    "C3": |-
+      configs/resources/audio/20171211SongRuoXuan/daxp_Qing_zao_qi_lai-Mai_shui-dxjky/8_student03.wav
+    "C4": |-
+      configs/resources/audio/20171211SongRuoXuan/daxp_Qing_zao_qi_lai-Mai_shui-dxjky/8_student04.wav
+    "C4_anchor": |-
+      configs/resources/audio/20171211SongRuoXuan/daxp_Qing_zao_qi_lai-Mai_shui-dxjky/8_student04.wav
+    "C5": |-
+      configs/resources/audio/20171211SongRuoXuan/daxp_Qing_zao_qi_lai-Mai_shui-dxjky/8_student05.wav
+    "C6": |-
+      configs/resources/audio/20171211SongRuoXuan/daxp_Qing_zao_qi_lai-Mai_shui-dxjky/8_student06.wav
+  "type": |-
+    mushra
+- "content": |-
+    please rate each singing sample
+  "createAnchor35": !!bool |-
+    false
+  "createAnchor70": !!bool |-
+    false
+  "enableLooping": !!bool |-
+    false
+  "id": |-
+    9
+  "name": |-
+    20171211SongRuoXuan/daxp_Qing_zao_qi_lai-Mai_shui-dxjky_9
+  "randomize": !!bool |-
+    true
+  "reference": |-
+    configs/resources/audio/20171211SongRuoXuan/daxp_Qing_zao_qi_lai-Mai_shui-dxjky/9_0teacher.wav
+  "showWaveform": !!bool |-
+    false
+  "stimuli":
+    "C1": |-
+      configs/resources/audio/20171211SongRuoXuan/daxp_Qing_zao_qi_lai-Mai_shui-dxjky/9_student01.wav
+    "C2": |-
+      configs/resources/audio/20171211SongRuoXuan/daxp_Qing_zao_qi_lai-Mai_shui-dxjky/9_student02.wav
+    "C3": |-
+      configs/resources/audio/20171211SongRuoXuan/daxp_Qing_zao_qi_lai-Mai_shui-dxjky/9_student03.wav
+    "C4": |-
+      configs/resources/audio/20171211SongRuoXuan/daxp_Qing_zao_qi_lai-Mai_shui-dxjky/9_student04.wav
+    "C4_anchor": |-
+      configs/resources/audio/20171211SongRuoXuan/daxp_Qing_zao_qi_lai-Mai_shui-dxjky/9_student04.wav
+    "C5": |-
+      configs/resources/audio/20171211SongRuoXuan/daxp_Qing_zao_qi_lai-Mai_shui-dxjky/9_student05.wav
+    "C6": |-
+      configs/resources/audio/20171211SongRuoXuan/daxp_Qing_zao_qi_lai-Mai_shui-dxjky/9_student06.wav
+  "type": |-
+    mushra
+- "content": |-
+    please rate each singing sample
+  "createAnchor35": !!bool |-
+    false
+  "createAnchor70": !!bool |-
+    false
+  "enableLooping": !!bool |-
+    false
+  "id": |-
+    10
+  "name": |-
+    20171211SongRuoXuan/daxp_Qing_zao_qi_lai-Mai_shui-dxjky_10
+  "randomize": !!bool |-
+    true
+  "reference": |-
+    configs/resources/audio/20171211SongRuoXuan/daxp_Qing_zao_qi_lai-Mai_shui-dxjky/10_0teacher.wav
+  "showWaveform": !!bool |-
+    false
+  "stimuli":
+    "C1": |-
+      configs/resources/audio/20171211SongRuoXuan/daxp_Qing_zao_qi_lai-Mai_shui-dxjky/10_student01.wav
+    "C2": |-
+      configs/resources/audio/20171211SongRuoXuan/daxp_Qing_zao_qi_lai-Mai_shui-dxjky/10_student02.wav
+    "C3": |-
+      configs/resources/audio/20171211SongRuoXuan/daxp_Qing_zao_qi_lai-Mai_shui-dxjky/10_student03.wav
+    "C4": |-
+      configs/resources/audio/20171211SongRuoXuan/daxp_Qing_zao_qi_lai-Mai_shui-dxjky/10_student04.wav
+    "C4_anchor": |-
+      configs/resources/audio/20171211SongRuoXuan/daxp_Qing_zao_qi_lai-Mai_shui-dxjky/10_student04.wav
+    "C5": |-
+      configs/resources/audio/20171211SongRuoXuan/daxp_Qing_zao_qi_lai-Mai_shui-dxjky/10_student05.wav
+    "C6": |-
+      configs/resources/audio/20171211SongRuoXuan/daxp_Qing_zao_qi_lai-Mai_shui-dxjky/10_student06.wav
+  "type": |-
+    mushra
+- "content": |-
+    please rate each singing sample
+  "createAnchor35": !!bool |-
+    false
+  "createAnchor70": !!bool |-
+    false
+  "enableLooping": !!bool |-
+    false
+  "id": |-
+    11
+  "name": |-
+    20171211SongRuoXuan/daxp_Qing_zao_qi_lai-Mai_shui-dxjky_11
+  "randomize": !!bool |-
+    true
+  "reference": |-
+    configs/resources/audio/20171211SongRuoXuan/daxp_Qing_zao_qi_lai-Mai_shui-dxjky/11_0teacher.wav
+  "showWaveform": !!bool |-
+    false
+  "stimuli":
+    "C1": |-
+      configs/resources/audio/20171211SongRuoXuan/daxp_Qing_zao_qi_lai-Mai_shui-dxjky/11_student01.wav
+    "C2": |-
+      configs/resources/audio/20171211SongRuoXuan/daxp_Qing_zao_qi_lai-Mai_shui-dxjky/11_student02.wav
+    "C2_anchor": |-
+      configs/resources/audio/20171211SongRuoXuan/daxp_Qing_zao_qi_lai-Mai_shui-dxjky/11_student02.wav
+    "C3": |-
+      configs/resources/audio/20171211SongRuoXuan/daxp_Qing_zao_qi_lai-Mai_shui-dxjky/11_student03.wav
+    "C4": |-
+      configs/resources/audio/20171211SongRuoXuan/daxp_Qing_zao_qi_lai-Mai_shui-dxjky/11_student04.wav
+    "C5": |-
+      configs/resources/audio/20171211SongRuoXuan/daxp_Qing_zao_qi_lai-Mai_shui-dxjky/11_student05.wav
+    "C6": |-
+      configs/resources/audio/20171211SongRuoXuan/daxp_Qing_zao_qi_lai-Mai_shui-dxjky/11_student06.wav
+  "type": |-
+    mushra
+- "content": |-
+    please rate each singing sample
+  "createAnchor35": !!bool |-
+    false
+  "createAnchor70": !!bool |-
+    false
+  "enableLooping": !!bool |-
+    false
+  "id": |-
+    12
+  "name": |-
+    20171211SongRuoXuan/daxp_Qing_zao_qi_lai-Mai_shui-dxjky_12
+  "randomize": !!bool |-
+    true
+  "reference": |-
+    configs/resources/audio/20171211SongRuoXuan/daxp_Qing_zao_qi_lai-Mai_shui-dxjky/12_0teacher.wav
+  "showWaveform": !!bool |-
+    false
+  "stimuli":
+    "C1": |-
+      configs/resources/audio/20171211SongRuoXuan/daxp_Qing_zao_qi_lai-Mai_shui-dxjky/12_student01.wav
+    "C2": |-
+      configs/resources/audio/20171211SongRuoXuan/daxp_Qing_zao_qi_lai-Mai_shui-dxjky/12_student02.wav
+    "C3": |-
+      configs/resources/audio/20171211SongRuoXuan/daxp_Qing_zao_qi_lai-Mai_shui-dxjky/12_student03.wav
+    "C3_anchor": |-
+      configs/resources/audio/20171211SongRuoXuan/daxp_Qing_zao_qi_lai-Mai_shui-dxjky/12_student03.wav
+    "C4": |-
+      configs/resources/audio/20171211SongRuoXuan/daxp_Qing_zao_qi_lai-Mai_shui-dxjky/12_student04.wav
+    "C5": |-
+      configs/resources/audio/20171211SongRuoXuan/daxp_Qing_zao_qi_lai-Mai_shui-dxjky/12_student05.wav
+    "C6": |-
+      configs/resources/audio/20171211SongRuoXuan/daxp_Qing_zao_qi_lai-Mai_shui-dxjky/12_student06.wav
+  "type": |-
+    mushra
+- "content": |-
+    please rate each singing sample
+  "createAnchor35": !!bool |-
+    false
+  "createAnchor70": !!bool |-
+    false
+  "enableLooping": !!bool |-
+    false
+  "id": |-
+    13
+  "name": |-
+    20171211SongRuoXuan/daxp_Qing_zao_qi_lai-Mai_shui-dxjky_13
+  "randomize": !!bool |-
+    true
+  "reference": |-
+    configs/resources/audio/20171211SongRuoXuan/daxp_Qing_zao_qi_lai-Mai_shui-dxjky/13_0teacher.wav
+  "showWaveform": !!bool |-
+    false
+  "stimuli":
+    "C1": |-
+      configs/resources/audio/20171211SongRuoXuan/daxp_Qing_zao_qi_lai-Mai_shui-dxjky/13_student01.wav
+    "C2": |-
+      configs/resources/audio/20171211SongRuoXuan/daxp_Qing_zao_qi_lai-Mai_shui-dxjky/13_student02.wav
+    "C3": |-
+      configs/resources/audio/20171211SongRuoXuan/daxp_Qing_zao_qi_lai-Mai_shui-dxjky/13_student03.wav
+    "C3_anchor": |-
+      configs/resources/audio/20171211SongRuoXuan/daxp_Qing_zao_qi_lai-Mai_shui-dxjky/13_student03.wav
+    "C4": |-
+      configs/resources/audio/20171211SongRuoXuan/daxp_Qing_zao_qi_lai-Mai_shui-dxjky/13_student04.wav
+    "C5": |-
+      configs/resources/audio/20171211SongRuoXuan/daxp_Qing_zao_qi_lai-Mai_shui-dxjky/13_student05.wav
+    "C6": |-
+      configs/resources/audio/20171211SongRuoXuan/daxp_Qing_zao_qi_lai-Mai_shui-dxjky/13_student06.wav
+  "type": |-
+    mushra
+- "content": |-
+    please rate each singing sample
+  "createAnchor35": !!bool |-
+    false
+  "createAnchor70": !!bool |-
+    false
+  "enableLooping": !!bool |-
+    false
+  "id": |-
+    14
+  "name": |-
+    20171211SongRuoXuan/daxp_Qing_zao_qi_lai-Mai_shui-dxjky_14
+  "randomize": !!bool |-
+    true
+  "reference": |-
+    configs/resources/audio/20171211SongRuoXuan/daxp_Qing_zao_qi_lai-Mai_shui-dxjky/14_0teacher.wav
+  "showWaveform": !!bool |-
+    false
+  "stimuli":
+    "C1": |-
+      configs/resources/audio/20171211SongRuoXuan/daxp_Qing_zao_qi_lai-Mai_shui-dxjky/14_student01.wav
+    "C1_anchor": |-
+      configs/resources/audio/20171211SongRuoXuan/daxp_Qing_zao_qi_lai-Mai_shui-dxjky/14_student01.wav
+    "C2": |-
+      configs/resources/audio/20171211SongRuoXuan/daxp_Qing_zao_qi_lai-Mai_shui-dxjky/14_student02.wav
+    "C3": |-
+      configs/resources/audio/20171211SongRuoXuan/daxp_Qing_zao_qi_lai-Mai_shui-dxjky/14_student03.wav
+    "C4": |-
+      configs/resources/audio/20171211SongRuoXuan/daxp_Qing_zao_qi_lai-Mai_shui-dxjky/14_student04.wav
+    "C5": |-
+      configs/resources/audio/20171211SongRuoXuan/daxp_Qing_zao_qi_lai-Mai_shui-dxjky/14_student05.wav
+    "C6": |-
+      configs/resources/audio/20171211SongRuoXuan/daxp_Qing_zao_qi_lai-Mai_shui-dxjky/14_student06.wav
+  "type": |-
+    mushra
+- "content": |-
+    please rate each singing sample
+  "createAnchor35": !!bool |-
+    false
+  "createAnchor70": !!bool |-
+    false
+  "enableLooping": !!bool |-
+    false
+  "id": |-
+    15
+  "name": |-
+    20171211SongRuoXuan/daxp_Qing_zao_qi_lai-Mai_shui-dxjky_15
+  "randomize": !!bool |-
+    true
+  "reference": |-
+    configs/resources/audio/20171211SongRuoXuan/daxp_Qing_zao_qi_lai-Mai_shui-dxjky/15_0teacher.wav
+  "showWaveform": !!bool |-
+    false
+  "stimuli":
+    "C1": |-
+      configs/resources/audio/20171211SongRuoXuan/daxp_Qing_zao_qi_lai-Mai_shui-dxjky/15_student01.wav
+    "C2": |-
+      configs/resources/audio/20171211SongRuoXuan/daxp_Qing_zao_qi_lai-Mai_shui-dxjky/15_student02.wav
+    "C3": |-
+      configs/resources/audio/20171211SongRuoXuan/daxp_Qing_zao_qi_lai-Mai_shui-dxjky/15_student03.wav
+    "C4": |-
+      configs/resources/audio/20171211SongRuoXuan/daxp_Qing_zao_qi_lai-Mai_shui-dxjky/15_student04.wav
+    "C5": |-
+      configs/resources/audio/20171211SongRuoXuan/daxp_Qing_zao_qi_lai-Mai_shui-dxjky/15_student05.wav
+    "C6": |-
+      configs/resources/audio/20171211SongRuoXuan/daxp_Qing_zao_qi_lai-Mai_shui-dxjky/15_student06.wav
+    "C6_anchor": |-
+      configs/resources/audio/20171211SongRuoXuan/daxp_Qing_zao_qi_lai-Mai_shui-dxjky/15_student06.wav
+  "type": |-
+    mushra
+- "content": |-
+    Thank you!
+  "name": |-
+    Thank you!
+  "popupcontent": |-
+    Your score has been stored!
+  "showResults": !!bool |-
+    false
+  "type": |-
+    finish
+  "writeResults": !!bool |-
+    true
+"remoteService": |-
+  service/write.php
+"showButtonPreviousPage": !!bool |-
+  true
+"stopOnErrors": !!bool |-
+  true
+"testId": |-
+  20171211SongRuoXuan/daxp_Qing_zao_qi_lai-Mai_shui-dxjky_WangXin
+"testname": |-
+  20171211SongRuoXuan/daxp_Qing_zao_qi_lai-Mai_shui-dxjky
