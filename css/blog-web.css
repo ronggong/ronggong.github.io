@@ -3,12 +3,12 @@ body, html {
 	}
 body {
 	text-align:center; 
-	margin:.7em;
+	margin:1.0em;
 	padding:0;
 	border:0;
 	/*font: .7em Verdana, Helvetica, Arial, sans-serif;*/
-	font-size:.7em;
-	line-height:1.5em;
+	font-size:1.0em;
+	line-height:2.0em;
 	font-weight:400;
 	color: #333; /*text color*/
 	background-color:#fff;
@@ -30,7 +30,7 @@ body {
    }
 #blog-bg-header h2,
 #blog-wrapper h2 {
-	font-size:1.6em;
+	font-size:1.3em;
    }
 
 body div#blog-header p
@@ -62,7 +62,7 @@ ul, li {margin: 0; padding: 0;}
 #blog-wrapper ul li 
 {
 	text-indent:0;
-	background-image: url(../img/interface/bullet.png);
+	/*background-image: url(../img/interface/bullet.png);*/
 	background-repeat: no-repeat;
 	background-position: 0 8px;
 	display:block;
