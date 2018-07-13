@@ -8,6 +8,10 @@
     <body>
     <div id="blog-wrapper">
       <div id="blog-content">
+          <h2>Audio Examples of paper: Extracting Singing Voice From a Musical Mixture</h2>
+          <h3>Pritish Chandna, Merlijn Blaauw, Jordi Bonada, Emilia Gómez</h3>
+          <h3>Music Technology Group, Universitat Pompeu Fabra, Barcelona</h3>
+
           <p><strong>45415_verse_mixture.wav:</strong> The original mixture file</p>
             <audio controls>
             <source src="source_sep_iKala/45415_verse_mixture.wav" type="audio/wav">
@@ -20,13 +24,13 @@
             Your browser does not support the audio element.
             </audio>
             <br>
-          <p><strong>45415_verse_FASST:</strong> Vocals separated using the FASST (NMF) algorithm</p>
-            <audio controls>
-            <source src="source_sep_iKala/45415_verse_FASST.wav" type="audio/wav">
-            Your browser does not support the audio element.
-            </audio>
-            <br>
-          <p><strong>45415_verse-voice_deepconvsep_ikala:</strong> Vocals separated using my older algorithm (https://github.com/MTG/DeepConvSep)</p>
+          <!--<p><strong>45415_verse_FASST:</strong> Vocals separated using the FASST (NMF) algorithm</p>-->
+            <!--<audio controls>-->
+            <!--<source src="source_sep_iKala/45415_verse_FASST.wav" type="audio/wav">-->
+            <!--Your browser does not support the audio element.-->
+            <!--</audio>-->
+            <!--<br>-->
+          <p><strong>45415_verse-voice_deepconvsep_ikala:</strong> Vocals separated using <a href="https://github.com/MTG/DeepConvSep">DeepConvSep</a> [1].</p>
             <audio controls>
             <source src="source_sep_iKala/45415_verse-voice_deepconvsep_ikala.wav" type="audio/wav">
             Your browser does not support the audio element.
@@ -43,6 +47,8 @@
             <source src="source_sep_iKala/45415_verse_synth_predf0.wav" type="audio/wav">
             Your browser does not support the audio element.
             </audio>
+
+          <p>[1] P. Chandna, M. Miron, J. Janer, and E. Gómez, “Monoaural audio source separation using deep convolutional neural networks” International Conference on Latent Variable Analysis and Signal Separation, 2017.</p>
       </div>
       
       <div id="blog-bg-footer">
