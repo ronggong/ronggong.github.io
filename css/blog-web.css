@@ -42,7 +42,7 @@ body div#blog-header p
 #blog-header p.overview {font-size:1em;line-height:1.5em;text-align:justify;}
 #blog-footer p {float:right}
 
-ul, li {margin: 0; padding: 0;}
+/*ul, li {margin: 0; padding: 0;}*/
 
 #blog-bg-header a,
 #blog-wrapper a{
@@ -54,20 +54,21 @@ ul, li {margin: 0; padding: 0;}
 #blog-wrapper a:hover{color:#7dcc56;}
 
 #blog-wrapper ul {
-	padding-left:0;
-	margin-left:0;
-	list-style: none;
+	/*padding-left:0;*/
+	/*margin-left:0;*/
+	list-style: none outside none;
 	position: relative;
 }
 #blog-wrapper ul li 
 {
-	text-indent:0;
+	/*text-indent:0;*/
 	/*background-image: url(../img/interface/bullet.png);*/
 	background-repeat: no-repeat;
 	background-position: 0 8px;
 	display:block;
-	padding-left:1em; 
-	margin:0;
+	padding-left:1em;
+	/*margin:0;*/
+	margin-left:15px;
 }
 
 #blog-header img {height:328px;width:259px; float:right; background-color:transparent/*default #9c9c9c*/;vertical-align:middle;margin-right:1.2em;margin-top:10px;margin-bottom:0px;}
