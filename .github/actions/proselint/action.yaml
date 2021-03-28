@@ -30,7 +30,7 @@ runs:
       run: |
         declare -a filepaths
 
-        for path in $(find "{{ inputs.scandir }}" \
+        for path in $(find "${{ inputs.scandir }}" \
           -type f -name "*.md" -print); do
           filepaths+=("$path")
         done
