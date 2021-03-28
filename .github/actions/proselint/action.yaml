@@ -9,7 +9,7 @@ inputs:
 outputs:
   files:
     description: A list of files
-    value: ${{ steps:filepaths.outputs.filepaths }}
+    value: ${{ steps.filepaths.outputs.filepaths }}
 runs:
   using: "composite"
   steps:
