@@ -1,0 +1,63 @@
+name: "Proselint"
+author: "Rong Gong"
+description: "GitHub action for Proselint."
+inputs:
+  scandir:
+    description: "Directory to be searched for files. Defaults to ."
+    required: false
+    default: "."
+outputs:
+  files:
+    description: A list of files
+    value: ${{ steps:filepaths.outputs.filepaths }}
+runs:
+  using: "composite"
+  steps:
+    - name: Download proselint
+      shell: bash
+      run: |
+        sudo add-apt-repository universe
+        sudo apt install python3-proselint
+      
+    - name: Display proselint version
+      shell: bash
+      run: |
+        "${{ github.action_path }}/proselint" --version
+
+    - name: Gather base file paths
+      shell: bash
+      id: filepaths
+      run: |
+        declare -a filepaths
+
+        for path in $(find "{{ inputs.scandir }}" \
+          -type f -name "*.md" -print); do
+          filepaths+=("$path")
+        done
+
+        echo "::set-output name=filepaths::${filepaths[@]}"
+
+    - name: Run proselint
+      id: check
+      shell: bash
+      run: |
+        declare -a returnproselint
+
+        for file in ${{ steps.filepaths.outputs.filepaths }}; do
+          echo "::debug::checking $file"
+          returnprose=$("${{ github.action_path }}/proselint" "$file")
+          returnproselint+=("$returnprose")
+        done
+
+        echo "::set-output name=returnproselint::${returnproselint[@]}"
+    
+    - name: Print info
+      shell: bash
+      run: |
+        echo "Files: ${{ steps.filepaths.outputs.filepaths }}"
+        echo "Output: ${{ steps.check.outputs.returnproselint }}"
+
+        exit 0
+      
+
+    

@@ -1,0 +1,12 @@
+on: push
+
+name: 'Trigger: Push action'
+
+jobs:
+  proseline:
+    name: Proselint
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v2
+    - name: Run Proselint
+      uses: .github/actions/proselint
