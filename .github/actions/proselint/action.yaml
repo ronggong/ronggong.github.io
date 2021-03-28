@@ -46,9 +46,8 @@ runs:
 
         for file in ${{ steps.filepaths.outputs.filepaths }}; do
           echo "Checking $file"
-          returnprose=$(proselint "$file")
+          proselint "$file"
           echo "Finish checking $file"
-          returnproselint+=("$returnprose")
           echo "Return string added to return string."
         done
 
