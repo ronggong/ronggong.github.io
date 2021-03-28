@@ -42,24 +42,15 @@ runs:
       id: check
       shell: bash
       run: |
-        declare -a returnproselint
-
         for file in ${{ steps.filepaths.outputs.filepaths }}; do
           echo "Checking $file"
           proselint "$file"
-          echo "Finish checking $file"
-          echo "Return string added to return string."
         done
-
-        echo "Check done."
-        echo "::set-output name=returnproselint::${returnproselint[@]}"
     
     - name: Print info
       shell: bash
       run: |
         echo "Files: ${{ steps.filepaths.outputs.filepaths }}"
-        echo "Output: ${{ steps.check.outputs.returnproselint }}"
-
         exit 0
       
 
