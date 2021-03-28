@@ -35,6 +35,7 @@ runs:
           filepaths+=("$path")
         done
 
+        echo "Find md files ${filepaths[@]}"
         echo "::set-output name=filepaths::${filepaths[@]}"
 
     - name: Run proselint
@@ -49,6 +50,7 @@ runs:
           returnproselint+=("$returnprose")
         done
 
+        echo "Check done."
         echo "::set-output name=returnproselint::${returnproselint[@]}"
     
     - name: Print info
