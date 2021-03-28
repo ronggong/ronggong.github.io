@@ -22,7 +22,7 @@ runs:
     - name: Display proselint version
       shell: bash
       run: |
-        "${{ github.action_path }}/proselint" --version
+        proselint --version
 
     - name: Gather base file paths
       shell: bash
@@ -45,7 +45,7 @@ runs:
 
         for file in ${{ steps.filepaths.outputs.filepaths }}; do
           echo "::debug::checking $file"
-          returnprose=$("${{ github.action_path }}/proselint" "$file")
+          returnprose=$(proselint "$file")
           returnproselint+=("$returnprose")
         done
 
